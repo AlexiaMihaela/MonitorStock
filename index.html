@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitorizare Stocuri</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Monitorizare Stocuri</h1>
+        <form id="addProduct">
+            <input type="text" id="name" placeholder="Nume produs" required>
+            <input type="number" id="cantitate" placeholder="Cantitate" required>
+            <input type="number" id="price" placeholder="Preț" step="0.01" required>
+            <button type="submit">Adaugă produs</button>
+        </form>
+        <h2>Stocuri</h2>
+        <ul id="stocList"></ul>
+    </div>
+</body>
+</html>
